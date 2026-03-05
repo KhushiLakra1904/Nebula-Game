@@ -12,7 +12,7 @@ Nebula Match is a high-performance, browser-based puzzle game that blends **mode
 </p>
 
 <p align="center">
-  <img src="image1.png" alt="Gameplay Features" width="800">
+  <img src="image-1.png" alt="Gameplay Features" width="800">
 </p>
 
 ---
