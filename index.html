@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nebula Memory Match</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <header>
+            <h1>Nebula Match</h1>
+            <div class="difficulty-picker">
+                <select id="difficulty">
+                    <option value="easy">Easy (4x3)</option>
+                    <option value="medium" selected>Medium (4x4)</option>
+                    <option value="hard">Hard (6x6)</option>
+                </select>
+            </div>
+            
+            <div class="stats">
+                <span>Moves: <b id="move-count">0</b></span>
+                <span>Time: <b id="timer">00:00</b></span>
+            </div>
+            <div class="best-stats">
+                <span>🏆 Best: <b id="best-moves">-</b></span>
+                <span>⏱️ Record: <b id="best-time">-</b></span>
+            </div>
+        </header>
+
+        <div class="grid" id="game-grid"></div>
+
+        <div class="controls">
+            <button id="restart-btn">Restart</button>
+            <button id="hint-btn" style="background: #f39c12; color: white;">Hint (+5 Moves)</button>
+            <button id="clear-btn">Clear Records</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
